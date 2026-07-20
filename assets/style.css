@@ -322,6 +322,24 @@ mjx-container[jax="SVG"][display="true"] {
   border-top: 1px solid var(--border);
 }
 
+.visitor-map-small {
+  width: 180px;
+  height: 110px;
+  margin: 24px auto 0;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.visitor-map-small iframe,
+.visitor-map-small img,
+.visitor-map-small canvas,
+.visitor-map-small svg {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100% !important;
+  display: block;
+}
+
 @media (max-width: 620px) {
   .navbar {
     min-height: 62px;
